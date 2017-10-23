@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+}
+
+.header-img {
+  width: 30px; 
+  height: 30px;
+}
+
+.fullscreen {
+  min-height: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.sidebar {
+  background: #efefef;
+  min-height: 95vh;
+}
+
+.expanded {
+  width: 300px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.chat-content {
+  min-height: 450px;
+  max-height: 450px;
+  border-right: 1px solid #dedede;
+  border-left: 1px solid #dedede;
+  overflow-y: scroll;
+}
+
+.block-message {
+  display: block;
+}
+
+.is-light-grey {
+ background: #989898;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputicon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.messages-list > li:nth-child(1) {
+  margin-top: 10px;
+}
+
+.messages-list > li:nth-last-child(1) {
+  margin-bottom: 10px;
+}
+
+.file-item {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  );
+  cursor: pointer;
+}
+
+.file-item:hover {
+  background: linear-gradient(
+    rgba(150, 150, 150, 1), 
+    rgba(150, 150, 150, 1)
+  );
+}
